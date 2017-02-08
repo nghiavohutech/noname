@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Declare font key-->
+    <attr name="font">
+        <enum name="Roboto_Bold" value="0" />
+        <enum name="Roboto_Medium" value="1" />
+        <enum name="Roboto_Regular" value="2" />
+        <enum name="Roboto_Light" value="3" />
+        <enum name="Roboto_Think" value="4" />
+    </attr>
+
+    <declare-styleable name="BaseTextView">
+        <attr name="font" />
+    </declare-styleable>
+    <declare-styleable name="BaseEditText">
+        <attr name="font" />
+    </declare-styleable>
+    <declare-styleable name="BaseButton">
+        <attr name="font" />
+    </declare-styleable>
+</resources>
